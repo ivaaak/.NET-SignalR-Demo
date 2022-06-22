@@ -14,5 +14,35 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #132b37;
+}
+.buttonContainer {
+    border: 2px solid white !important;
+    border-style: solid;
+}
+.inputLabel {
+    color: #efeee9;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin-right: 50px;
+}
+#sendButton {
+    margin-bottom: 10px;
+    margin-left: 60px;
+    align-content: center;
+    justify-items: center;
+    color: black;
+    background-color: white;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#messagesList {
+    color: #efeee9;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
 }
